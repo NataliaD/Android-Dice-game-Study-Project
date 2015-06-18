@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nudelwürfeln</string>
+    <string name="btnStart">Neues Spiel</string>
+    <string name="btnHighscore">Highscores anzeigen</string>
+    <string name="btnQuit">Beenden</string>
+    <string name="titleMain">Großes Nudelwürfeln</string>
+    <string name="lblListOfPlayers">Teilnehmende Spieler:</string>
+    <string name="btnAdd">Hinzufügen</string>
+    <string name="hintPlayerName">Spielernamen eingeben</string>
+    <string name="OK">OK</string>
+    <string name="lblCurrentPlayer">Aktueller Spieler:</string>
+    <string name="btnRollDice">Würfeln!</string>
+    <string name="lblScore">Punkte:</string>
+    <string name="lblWounds">Verwundungen:</string>
+    <string name="btnPass">Passen</string>
+    <string name="lblGameOver">Partie beendet!</string>
+    <string name="btnRestart">Noch mal starten</string>
+    <string name="btnReturnMain">Zum Hauptmenü</string>
+    <string formatted="false" name="msgAtLeastTwoTitle">Fehler</string>
+    <string formatted="false" name="msgAtLeastTwoText">Bitte mindestens zwei Spieler angeben!</string>
+    <string formatted="false" name="msgPlayerVictoryTitle">SIEG!</string>
+    <string formatted="false" name="msgPlayerVictoryText">Spieler %1$s hat %2$s Punkte gemacht und damit das Spiel gewonnen!</string>
+    <string formatted="false" name="msgTurnPassedTitle">"Gepasst"</string>
+    <string formatted="false" name="msgTurnPassedText">"Spieler %1$s hat gepasst und bekommt %2$s Punkte."</string>
+    <string formatted="false" name="msgPlayerKilledTitle">"Verputzt!"</string>
+    <string formatted="false" name="msgPlayerKilledText">"Spieler %1$s hat %2$s Verwundungen abbekommen und ist besiegt! %3$s Punkte verloren."</string>
+    <string formatted="false" name="msgAllDicesTitle">"Alle Würfel benutzt!"</string>
+    <string formatted="false" name="msgAllDicesText">"Spieler %1$s hat ALLE Würfel geworfen! %2$s Punkte gutgeschrieben."</string>
+    <string formatted="false" name="msgZeroWord">"keine"</string>
+    <string formatted="false" name="msgWinnerName">%1$s hat gewonnen!</string>
+</resources>

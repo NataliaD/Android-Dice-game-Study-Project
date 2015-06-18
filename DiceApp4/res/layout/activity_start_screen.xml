@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="ru.projetandroid.StartScreenActivity" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+    -->
+
+    <!--
+         This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows.
+    -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/titleMain"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/text_foreground" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="116dp" >
+
+        <ImageView
+            android:id="@+id/imageViewDie1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:src="@drawable/casserole" />
+
+        <ImageView
+            android:id="@+id/imageViewDie2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:src="@drawable/pate" />
+
+        <ImageView
+            android:id="@+id/imageViewDie3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/fourchette" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startPlayerActivity"
+        android:text="@string/btnStart" />
+
+    <Button
+        android:id="@+id/btnHighscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showHighscores"
+        android:text="@string/btnHighscore" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doExit"
+        android:text="@string/btnQuit" />
+
+</LinearLayout>

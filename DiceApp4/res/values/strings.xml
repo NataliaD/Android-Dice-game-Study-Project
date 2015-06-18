@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dice Game</string>
+    <string name="btnStart">Start new game</string>
+    <string name="btnHighscore">Show highscores</string>
+    <string name="btnQuit">Exit</string>
+    <string name="titleMain">Great dice game</string>
+    <string name="lblListOfPlayers">List of participating players:</string>
+    <string name="btnAdd">Add</string>
+    <string name="hintPlayerName">Player name</string>
+    <string name="OK">OK</string>
+    <string name="lblCurrentPlayer">Current player:</string>
+    <string name="btnRollDice">Roll the dice!</string>
+    <string name="lblScore">Score:</string>
+    <string name="lblWounds">Wounds taken:</string>
+    <string name="btnPass">Pass this round</string>
+    <string name="lblGameOver">Game over!</string>
+    <string name="btnRestart">Start again</string>
+    <string name="btnReturnMain">Return to main menu</string>
+    <string formatted="false" name="msgAtLeastTwoTitle">Error</string>
+    <string formatted="false" name="msgAtLeastTwoText">Please define at least two players!</string>
+    <string formatted="false" name="msgPlayerVictoryTitle">VICTORY!</string>
+    <string formatted="false" name="msgPlayerVictoryText">Player %1$s earned %2$s points and won the game!</string>
+    <string formatted="false" name="msgTurnPassedTitle">Turn passed</string>
+    <string formatted="false" name="msgTurnPassedText">Player %1$s passed, earning %2$s points.</string>
+    <string formatted="false" name="msgPlayerKilledTitle">Defeat!</string>
+    <string formatted="false" name="msgPlayerKilledText">Player %1$s has taken %2$s points of damage and is defeated! %3$s points lost.</string>
+    <string formatted="false" name="msgAllDicesTitle">All dices used!</string>
+    <string formatted="false" name="msgAllDicesText">Player %1$s has used ALL the dices! %2$s points won.</string>
+    <string formatted="false" name="msgZeroWord">no</string>
+    <string formatted="false" name="msgWinnerName">%1$s has won!</string>
+</resources>

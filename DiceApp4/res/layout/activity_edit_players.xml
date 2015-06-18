@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="ru.projetandroid.EditPlayersActivity" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+    -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblListOfPlayers"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/text_foreground" />
+
+    <ListView
+        android:id="@+id/listViewPlayers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:choiceMode="singleChoice"
+        android:contentDescription="hallo" >
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/editPlayerName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:maxLength="16"
+            android:inputType="textCapSentences"
+            android:hint="@string/hintPlayerName" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btnAddPlayer"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:onClick="addPlayer"
+            android:text="@string/btnAdd" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startNewGame"
+        android:text="@string/btnStart" />
+
+</LinearLayout>

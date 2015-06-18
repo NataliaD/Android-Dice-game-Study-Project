@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">блядь</string>
+    <string name="btnStart">блядь</string>
+    <string name="btnHighscore">блядь</string>
+    <string name="btnQuit">блядь</string>
+    <string name="titleMain">блядь</string>
+    <string name="lblListOfPlayers">List of блядь:</string>
+    <string name="btnAdd">блядь</string>
+    <string name="hintPlayerName">Enter a блядь here</string>
+    <string name="OK">OK</string>
+    <string name="lblCurrentPlayer">Current блядь:</string>
+    <string name="btnRollDice">Roll the блядь, сука блядь!</string>
+    <string name="lblScore">Score блядь:</string>
+    <string name="lblWounds">блядь taken:</string>
+    <string name="btnPass">Pass this блядь</string>
+    <string name="lblGameOver">блядь game блядьблядь!</string>
+    <string name="btnRestart">блядь again</string>
+    <string name="btnReturnMain">Return to блядь</string>
+    <string formatted="false" name="msgAtLeastTwoTitle">ебаааааать!!!</string>
+    <string formatted="false" name="msgAtLeastTwoText">Please define at least two players, блядь!</string>
+    <string formatted="false" name="msgPlayerVictoryTitle">VICTORY Сука блядь!</string>
+    <string formatted="false" name="msgPlayerVictoryText">Блядь %1$s earned %2$s points блядь and won сука блядь the game!</string>
+    <string formatted="false" name="msgTurnPassedTitle">Turn блядь passed</string>
+    <string formatted="false" name="msgTurnPassedText">Блядь %1$s passed, earning %2$s points блядь.</string>
+    <string formatted="false" name="msgPlayerKilledTitle">Defeat блядь!</string>
+    <string formatted="false" name="msgPlayerKilledText">Блядь %1$s has taken %2$s points блядь of сука блядь damage and is defeated блядь! %3$s points lost блядь.</string>
+    <string formatted="false" name="msgAllDicesTitle">All dices сука used блядь!</string>
+    <string formatted="false" name="msgAllDicesText">Блядь %1$s has used ALL сука блядь the dices блядь! %2$s points won блядь.</string>
+    <string formatted="false" name="msgZeroWord">no блядь</string>
+    <string formatted="false" name="msgWinnerName">%1$s has won! БЛЯДЬ!</string>
+</resources>
