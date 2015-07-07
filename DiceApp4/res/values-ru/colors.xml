@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="text_foreground">#A03030</color>
+    <color name="background">#100000</color>
+    <color name="WoundsColor">#E02040</color>
+
+</resources>
